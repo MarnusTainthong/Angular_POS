@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pos-tgm';
+  // title = 'มนัส เทียรทอง';
+  name = 'มนัส เทียรทอง';
 }
