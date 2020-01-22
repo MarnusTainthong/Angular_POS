@@ -7,7 +7,11 @@ import { MaindisplayComponent } from './maindisplay/maindisplay.component';
 const routes: Routes = [
   { path: '', redirectTo: 'index', pathMatch: 'full'},
   { path: 'index', component: MaindisplayComponent},
-  { path: 'sale', component: AppsaledisplayComponent}
+  { path: 'sale', component: AppsaledisplayComponent},
+
+  // otherwise redirect to home
+  { path: '**', redirectTo: '' }
+
 ]; // set path
 
 @NgModule({
